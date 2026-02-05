@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures assets are loaded correctly on GitHub Pages
+  base: '/CV/', // Explicitly set the base to the repository name for GitHub Pages
   build: {
     outDir: 'dist',
     rollupOptions: {
