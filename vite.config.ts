@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/CV/', // Ruta base para GitHub Pages
+  base: '/CV/',
   build: {
     outDir: 'dist',
-    emptyOutDir: true, // Limpia la carpeta dist antes de construir
+    emptyOutDir: true,
     rollupOptions: {
       input: {
         main: './index.html'
